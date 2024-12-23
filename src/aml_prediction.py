@@ -25,7 +25,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 # Load features from data.csv 
 features = []
-path = 'C:\\Mydata\\datascience course\\ass3\\classification_data_2024\\'
+path = 'data/'
 
 with open(path+'data.csv', 'r') as csvfile:
     csvreader = csv.reader(csvfile)
